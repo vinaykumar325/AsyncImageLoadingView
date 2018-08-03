@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CBE203B00910350B84BD007 /* Pods_AsyncImageLoading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE10DA97B1E400937963017 /* Pods_AsyncImageLoading.framework */; };
+		56D3FF3B719DA6669C119AC9 /* Pods_AsyncImageLoadingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57563078F07DB2B613168D96 /* Pods_AsyncImageLoadingUITests.framework */; };
+		5B55ED12210F638D0060FB70 /* AILWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55ED11210F638D0060FB70 /* AILWebServiceManager.swift */; };
+		5B610D36210F57CF00953D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B610D35210F57CF00953D04 /* AppDelegate.swift */; };
+		5B610D38210F57CF00953D04 /* AsynchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B610D37210F57CF00953D04 /* AsynchViewController.swift */; };
+		5B610D3B210F57CF00953D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B610D39210F57CF00953D04 /* Main.storyboard */; };
+		5B610D3D210F57CF00953D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B610D3C210F57CF00953D04 /* Assets.xcassets */; };
+		5B610D40210F57CF00953D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B610D3E210F57CF00953D04 /* LaunchScreen.storyboard */; };
+		5B610D4B210F57CF00953D04 /* AsyncImageLoadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B610D4A210F57CF00953D04 /* AsyncImageLoadingTests.swift */; };
+		5B610D56210F57CF00953D04 /* AsyncImageLoadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B610D55210F57CF00953D04 /* AsyncImageLoadingUITests.swift */; };
+		5B67B71C210F92D200A435BE /* AILUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67B71B210F92D200A435BE /* AILUser.swift */; };
+		5B67B71E210F92EF00A435BE /* AILUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67B71D210F92EF00A435BE /* AILUserDetails.swift */; };
+		5B67B722210F937200A435BE /* AILUserImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67B721210F937200A435BE /* AILUserImagesModel.swift */; };
+		5B67B724210F939A00A435BE /* AILUserCatagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67B723210F939A00A435BE /* AILUserCatagories.swift */; };
+		5B67B726210F956E00A435BE /* AILUserProfileImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67B725210F956E00A435BE /* AILUserProfileImageModel.swift */; };
+		5B67B728210F959600A435BE /* AILUserLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67B727210F959600A435BE /* AILUserLinks.swift */; };
+		5BC388392111A905006F992C /* AsyncImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC388382111A905006F992C /* AsyncImageLoadingView.swift */; };
+		5BC3883B2111AA8F006F992C /* AsyncImageLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC3883A2111AA8F006F992C /* AsyncImageLoadingView.xib */; };
+		5BDBE023210FBE92003E19C0 /* AILUserImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDBE021210FBE92003E19C0 /* AILUserImageTableViewCell.swift */; };
+		5BDBE024210FBE92003E19C0 /* AILUserImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDBE022210FBE92003E19C0 /* AILUserImageTableViewCell.xib */; };
+		FFD027A1C04615DF18CB8887 /* Pods_AsyncImageLoadingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44497ECFD572034781936C9 /* Pods_AsyncImageLoadingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B610D47210F57CF00953D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B610D2A210F57CF00953D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B610D31210F57CF00953D04;
+			remoteInfo = AsyncImageLoading;
+		};
+		5B610D52210F57CF00953D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B610D2A210F57CF00953D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B610D31210F57CF00953D04;
+			remoteInfo = AsyncImageLoading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D32A3E9CE6A6D1D2211C4F /* Pods-AsyncImageLoadingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageLoadingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageLoadingTests/Pods-AsyncImageLoadingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DE75715C5AE0FE1C2BE9E9A /* Pods-AsyncImageLoading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageLoading.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageLoading/Pods-AsyncImageLoading.release.xcconfig"; sourceTree = "<group>"; };
+		57563078F07DB2B613168D96 /* Pods_AsyncImageLoadingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncImageLoadingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B55ED11210F638D0060FB70 /* AILWebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILWebServiceManager.swift; sourceTree = "<group>"; };
+		5B610D32210F57CF00953D04 /* AsyncImageLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImageLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B610D35210F57CF00953D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B610D37210F57CF00953D04 /* AsynchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchViewController.swift; sourceTree = "<group>"; };
+		5B610D3A210F57CF00953D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B610D3C210F57CF00953D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B610D3F210F57CF00953D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B610D41210F57CF00953D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B610D46210F57CF00953D04 /* AsyncImageLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncImageLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B610D4A210F57CF00953D04 /* AsyncImageLoadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageLoadingTests.swift; sourceTree = "<group>"; };
+		5B610D4C210F57CF00953D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B610D51210F57CF00953D04 /* AsyncImageLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncImageLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B610D55210F57CF00953D04 /* AsyncImageLoadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageLoadingUITests.swift; sourceTree = "<group>"; };
+		5B610D57210F57CF00953D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B67B71B210F92D200A435BE /* AILUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILUser.swift; sourceTree = "<group>"; };
+		5B67B71D210F92EF00A435BE /* AILUserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILUserDetails.swift; sourceTree = "<group>"; };
+		5B67B721210F937200A435BE /* AILUserImagesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILUserImagesModel.swift; sourceTree = "<group>"; };
+		5B67B723210F939A00A435BE /* AILUserCatagories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILUserCatagories.swift; sourceTree = "<group>"; };
+		5B67B725210F956E00A435BE /* AILUserProfileImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILUserProfileImageModel.swift; sourceTree = "<group>"; };
+		5B67B727210F959600A435BE /* AILUserLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILUserLinks.swift; sourceTree = "<group>"; };
+		5BC388382111A905006F992C /* AsyncImageLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageLoadingView.swift; sourceTree = "<group>"; };
+		5BC3883A2111AA8F006F992C /* AsyncImageLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AsyncImageLoadingView.xib; sourceTree = "<group>"; };
+		5BDBE021210FBE92003E19C0 /* AILUserImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AILUserImageTableViewCell.swift; sourceTree = "<group>"; };
+		5BDBE022210FBE92003E19C0 /* AILUserImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AILUserImageTableViewCell.xib; sourceTree = "<group>"; };
+		60228D8F2B936B4AD14B5B26 /* Pods-AsyncImageLoadingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageLoadingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageLoadingUITests/Pods-AsyncImageLoadingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B07F239D4D15B0F91C4094BD /* Pods-AsyncImageLoadingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageLoadingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageLoadingUITests/Pods-AsyncImageLoadingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B44497ECFD572034781936C9 /* Pods_AsyncImageLoadingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncImageLoadingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52C706EA2052C4FBF3DA958 /* Pods-AsyncImageLoading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageLoading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageLoading/Pods-AsyncImageLoading.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE10DA97B1E400937963017 /* Pods_AsyncImageLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncImageLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E160889D2C4844B137975984 /* Pods-AsyncImageLoadingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageLoadingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageLoadingTests/Pods-AsyncImageLoadingTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B610D2F210F57CF00953D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBE203B00910350B84BD007 /* Pods_AsyncImageLoading.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B610D43210F57CF00953D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD027A1C04615DF18CB8887 /* Pods_AsyncImageLoadingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B610D4E210F57CF00953D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D3FF3B719DA6669C119AC9 /* Pods_AsyncImageLoadingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B55ED0F210F62F40060FB70 /* ApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5B610D35210F57CF00953D04 /* AppDelegate.swift */,
+			);
+			name = ApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		5B55ED10210F63550060FB70 /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				5B55ED11210F638D0060FB70 /* AILWebServiceManager.swift */,
+			);
+			name = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		5B610D29210F57CF00953D04 = {
+			isa = PBXGroup;
+			children = (
+				5B610D34210F57CF00953D04 /* AsyncImageLoading */,
+				5B610D49210F57CF00953D04 /* AsyncImageLoadingTests */,
+				5B610D54210F57CF00953D04 /* AsyncImageLoadingUITests */,
+				5B610D33210F57CF00953D04 /* Products */,
+				B747518323DEA8CF53D6F49E /* Pods */,
+				7AB995249ED84EA358863B26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B610D33210F57CF00953D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B610D32210F57CF00953D04 /* AsyncImageLoading.app */,
+				5B610D46210F57CF00953D04 /* AsyncImageLoadingTests.xctest */,
+				5B610D51210F57CF00953D04 /* AsyncImageLoadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B610D34210F57CF00953D04 /* AsyncImageLoading */ = {
+			isa = PBXGroup;
+			children = (
+				5B6F2FD02111C8B7001D62FB /* View */,
+				5BDBE01C210FB522003E19C0 /* CustomCells */,
+				5B55ED10210F63550060FB70 /* WebServiceManager */,
+				5B55ED0F210F62F40060FB70 /* ApplicationDelegate */,
+				5B610D64210F57FC00953D04 /* ViewControllers */,
+				5B610D63210F57ED00953D04 /* Model */,
+				5B610D39210F57CF00953D04 /* Main.storyboard */,
+				5B610D3C210F57CF00953D04 /* Assets.xcassets */,
+				5B610D3E210F57CF00953D04 /* LaunchScreen.storyboard */,
+				5B610D41210F57CF00953D04 /* Info.plist */,
+			);
+			path = AsyncImageLoading;
+			sourceTree = "<group>";
+		};
+		5B610D49210F57CF00953D04 /* AsyncImageLoadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B610D4A210F57CF00953D04 /* AsyncImageLoadingTests.swift */,
+				5B610D4C210F57CF00953D04 /* Info.plist */,
+			);
+			path = AsyncImageLoadingTests;
+			sourceTree = "<group>";
+		};
+		5B610D54210F57CF00953D04 /* AsyncImageLoadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B610D55210F57CF00953D04 /* AsyncImageLoadingUITests.swift */,
+				5B610D57210F57CF00953D04 /* Info.plist */,
+			);
+			path = AsyncImageLoadingUITests;
+			sourceTree = "<group>";
+		};
+		5B610D63210F57ED00953D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B67B71B210F92D200A435BE /* AILUser.swift */,
+				5B67B71D210F92EF00A435BE /* AILUserDetails.swift */,
+				5B67B721210F937200A435BE /* AILUserImagesModel.swift */,
+				5B67B723210F939A00A435BE /* AILUserCatagories.swift */,
+				5B67B725210F956E00A435BE /* AILUserProfileImageModel.swift */,
+				5B67B727210F959600A435BE /* AILUserLinks.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B610D64210F57FC00953D04 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B610D37210F57CF00953D04 /* AsynchViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5B6F2FD02111C8B7001D62FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BC388382111A905006F992C /* AsyncImageLoadingView.swift */,
+				5BC3883A2111AA8F006F992C /* AsyncImageLoadingView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5BDBE01C210FB522003E19C0 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				5BDBE021210FBE92003E19C0 /* AILUserImageTableViewCell.swift */,
+				5BDBE022210FBE92003E19C0 /* AILUserImageTableViewCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		7AB995249ED84EA358863B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE10DA97B1E400937963017 /* Pods_AsyncImageLoading.framework */,
+				B44497ECFD572034781936C9 /* Pods_AsyncImageLoadingTests.framework */,
+				57563078F07DB2B613168D96 /* Pods_AsyncImageLoadingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B747518323DEA8CF53D6F49E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D52C706EA2052C4FBF3DA958 /* Pods-AsyncImageLoading.debug.xcconfig */,
+				2DE75715C5AE0FE1C2BE9E9A /* Pods-AsyncImageLoading.release.xcconfig */,
+				E160889D2C4844B137975984 /* Pods-AsyncImageLoadingTests.debug.xcconfig */,
+				01D32A3E9CE6A6D1D2211C4F /* Pods-AsyncImageLoadingTests.release.xcconfig */,
+				B07F239D4D15B0F91C4094BD /* Pods-AsyncImageLoadingUITests.debug.xcconfig */,
+				60228D8F2B936B4AD14B5B26 /* Pods-AsyncImageLoadingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B610D31210F57CF00953D04 /* AsyncImageLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B610D5A210F57CF00953D04 /* Build configuration list for PBXNativeTarget "AsyncImageLoading" */;
+			buildPhases = (
+				1D9ACFEA6E5F94BEC75E47F3 /* [CP] Check Pods Manifest.lock */,
+				5B610D2E210F57CF00953D04 /* Sources */,
+				5B610D2F210F57CF00953D04 /* Frameworks */,
+				5B610D30210F57CF00953D04 /* Resources */,
+				187A742164872EF059ACCD7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncImageLoading;
+			productName = AsyncImageLoading;
+			productReference = 5B610D32210F57CF00953D04 /* AsyncImageLoading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B610D45210F57CF00953D04 /* AsyncImageLoadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B610D5D210F57CF00953D04 /* Build configuration list for PBXNativeTarget "AsyncImageLoadingTests" */;
+			buildPhases = (
+				1EDA52DA79048C54C6A097DC /* [CP] Check Pods Manifest.lock */,
+				5B610D42210F57CF00953D04 /* Sources */,
+				5B610D43210F57CF00953D04 /* Frameworks */,
+				5B610D44210F57CF00953D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B610D48210F57CF00953D04 /* PBXTargetDependency */,
+			);
+			name = AsyncImageLoadingTests;
+			productName = AsyncImageLoadingTests;
+			productReference = 5B610D46210F57CF00953D04 /* AsyncImageLoadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B610D50210F57CF00953D04 /* AsyncImageLoadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B610D60210F57CF00953D04 /* Build configuration list for PBXNativeTarget "AsyncImageLoadingUITests" */;
+			buildPhases = (
+				4F34DF7D5215B4D69A87F01E /* [CP] Check Pods Manifest.lock */,
+				5B610D4D210F57CF00953D04 /* Sources */,
+				5B610D4E210F57CF00953D04 /* Frameworks */,
+				5B610D4F210F57CF00953D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B610D53210F57CF00953D04 /* PBXTargetDependency */,
+			);
+			name = AsyncImageLoadingUITests;
+			productName = AsyncImageLoadingUITests;
+			productReference = 5B610D51210F57CF00953D04 /* AsyncImageLoadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B610D2A210F57CF00953D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vinay Kumar";
+				TargetAttributes = {
+					5B610D31210F57CF00953D04 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					5B610D45210F57CF00953D04 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B610D31210F57CF00953D04;
+					};
+					5B610D50210F57CF00953D04 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B610D31210F57CF00953D04;
+					};
+				};
+			};
+			buildConfigurationList = 5B610D2D210F57CF00953D04 /* Build configuration list for PBXProject "AsyncImageLoading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B610D29210F57CF00953D04;
+			productRefGroup = 5B610D33210F57CF00953D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B610D31210F57CF00953D04 /* AsyncImageLoading */,
+				5B610D45210F57CF00953D04 /* AsyncImageLoadingTests */,
+				5B610D50210F57CF00953D04 /* AsyncImageLoadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B610D30210F57CF00953D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B610D40210F57CF00953D04 /* LaunchScreen.storyboard in Resources */,
+				5BDBE024210FBE92003E19C0 /* AILUserImageTableViewCell.xib in Resources */,
+				5B610D3D210F57CF00953D04 /* Assets.xcassets in Resources */,
+				5BC3883B2111AA8F006F992C /* AsyncImageLoadingView.xib in Resources */,
+				5B610D3B210F57CF00953D04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B610D44210F57CF00953D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B610D4F210F57CF00953D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		187A742164872EF059ACCD7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AsyncImageLoading/Pods-AsyncImageLoading-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncImageLoading/Pods-AsyncImageLoading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D9ACFEA6E5F94BEC75E47F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncImageLoading-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EDA52DA79048C54C6A097DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncImageLoadingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F34DF7D5215B4D69A87F01E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncImageLoadingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B610D2E210F57CF00953D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B67B71E210F92EF00A435BE /* AILUserDetails.swift in Sources */,
+				5B67B722210F937200A435BE /* AILUserImagesModel.swift in Sources */,
+				5B67B728210F959600A435BE /* AILUserLinks.swift in Sources */,
+				5B610D38210F57CF00953D04 /* AsynchViewController.swift in Sources */,
+				5B67B71C210F92D200A435BE /* AILUser.swift in Sources */,
+				5B55ED12210F638D0060FB70 /* AILWebServiceManager.swift in Sources */,
+				5BC388392111A905006F992C /* AsyncImageLoadingView.swift in Sources */,
+				5B67B724210F939A00A435BE /* AILUserCatagories.swift in Sources */,
+				5BDBE023210FBE92003E19C0 /* AILUserImageTableViewCell.swift in Sources */,
+				5B610D36210F57CF00953D04 /* AppDelegate.swift in Sources */,
+				5B67B726210F956E00A435BE /* AILUserProfileImageModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B610D42210F57CF00953D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B610D4B210F57CF00953D04 /* AsyncImageLoadingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B610D4D210F57CF00953D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B610D56210F57CF00953D04 /* AsyncImageLoadingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B610D48210F57CF00953D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B610D31210F57CF00953D04 /* AsyncImageLoading */;
+			targetProxy = 5B610D47210F57CF00953D04 /* PBXContainerItemProxy */;
+		};
+		5B610D53210F57CF00953D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B610D31210F57CF00953D04 /* AsyncImageLoading */;
+			targetProxy = 5B610D52210F57CF00953D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B610D39210F57CF00953D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B610D3A210F57CF00953D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B610D3E210F57CF00953D04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B610D3F210F57CF00953D04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B610D58210F57CF00953D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B610D59210F57CF00953D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B610D5B210F57CF00953D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52C706EA2052C4FBF3DA958 /* Pods-AsyncImageLoading.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AsyncImageLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.AsyncImageLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B610D5C210F57CF00953D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE75715C5AE0FE1C2BE9E9A /* Pods-AsyncImageLoading.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AsyncImageLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.AsyncImageLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B610D5E210F57CF00953D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E160889D2C4844B137975984 /* Pods-AsyncImageLoadingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsyncImageLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.AsyncImageLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncImageLoading.app/AsyncImageLoading";
+			};
+			name = Debug;
+		};
+		5B610D5F210F57CF00953D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D32A3E9CE6A6D1D2211C4F /* Pods-AsyncImageLoadingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsyncImageLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.AsyncImageLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncImageLoading.app/AsyncImageLoading";
+			};
+			name = Release;
+		};
+		5B610D61210F57CF00953D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07F239D4D15B0F91C4094BD /* Pods-AsyncImageLoadingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AsyncImageLoadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.AsyncImageLoadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AsyncImageLoading;
+			};
+			name = Debug;
+		};
+		5B610D62210F57CF00953D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60228D8F2B936B4AD14B5B26 /* Pods-AsyncImageLoadingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AsyncImageLoadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.AsyncImageLoadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AsyncImageLoading;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B610D2D210F57CF00953D04 /* Build configuration list for PBXProject "AsyncImageLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B610D58210F57CF00953D04 /* Debug */,
+				5B610D59210F57CF00953D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B610D5A210F57CF00953D04 /* Build configuration list for PBXNativeTarget "AsyncImageLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B610D5B210F57CF00953D04 /* Debug */,
+				5B610D5C210F57CF00953D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B610D5D210F57CF00953D04 /* Build configuration list for PBXNativeTarget "AsyncImageLoadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B610D5E210F57CF00953D04 /* Debug */,
+				5B610D5F210F57CF00953D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B610D60210F57CF00953D04 /* Build configuration list for PBXNativeTarget "AsyncImageLoadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B610D61210F57CF00953D04 /* Debug */,
+				5B610D62210F57CF00953D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B610D2A210F57CF00953D04 /* Project object */;
+}
